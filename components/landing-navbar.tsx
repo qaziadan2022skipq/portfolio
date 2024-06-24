@@ -11,10 +11,6 @@ const links = [
     href: "#skills",
   },
   {
-    name: "Experience",
-    href: "#experience",
-  },
-  {
     name: "Contact Me",
     href: "#contact",
   },

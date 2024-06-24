@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+
 
 const skills = [
   {
@@ -42,12 +42,14 @@ const Skills = () => {
       {skills.map((skill) => (
         <div
           key={skill.name}
-          className="max-w-xs bg-gray-900 shadow-lg shadow-sky-800 rounded-lg overflow-hidden"
+          className="max-w-xs bg-gray-900 shadow-lg shadow-sky-800 rounded-lg transition duration-300 ease-in-out hover:scale-110 overflow-hidden"
         >
-          <img
+          <Image
             src={skill.icon}
             alt={skill.name}
-            className="w-24 h-24 mx-auto mt-4 "
+            width={100}
+            height={100}
+            className=" mx-auto mt-4 "
           />
           <div className="px-6 py-4">
             <h3 className="text-sky-600 text-xl font-semibold">

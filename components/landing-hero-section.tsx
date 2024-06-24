@@ -6,7 +6,7 @@ import TypewriterComponent from "typewriter-effect";
 
 const HeroSection = () => {
   return (
-    <div className="bg-gray-900 text-white py-20 flex items-center">
+    <div className="bg-gray-900 text-white text-center py-20 flex items-center">
       <div className="flex  flex-col w-full mx-16 items-center justify-center">
         <Image className="rounded-full border-sky-400 border-8" src={"/Adan.png"} height={250} width={250} alt="Adan Image" />
         <h1 className="text-5xl font-semibold my-6">
